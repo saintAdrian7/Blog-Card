@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5EAF0;
+   
+}
+.blog-card{
+width: auto;
+height: auto;
+padding: 20px;
+background-color: #FFFFFF;
+box-shadow: 0 30 100px 0px rgba(17, 23, 41, 0.05);
+border-radius: 20px;
+
+
+}
+
+img{
+   width: 500px;
+   border-radius: 20px;
+}
+
+.design-txt{
+    color:#883AE1 ;
+    background-color: #E6D6FC;
+    border-radius: 20px;
+    max-width: fit-content;
+    padding: 5px 20px;
+    font-weight: bolder;
+}
+
+.content{
+    font-weight: 100px;
+    
+}
