@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
 }
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #E5EAF0;
+    width: 1280px;
+    height: 100vh;
    
 }
 .blog-card{
@@ -17,10 +20,11 @@ box-shadow: 0 30 100px 0px rgba(17, 23, 41, 0.05);
 border-radius: 20px;
 
 
+
 }
 
 img{
-   width: 500px;
+   width: 450px;
    border-radius: 20px;
 }
 
@@ -32,8 +36,15 @@ img{
     padding: 5px 20px;
     font-weight: bolder;
 }
+h1{
+    font-size: 18px;
+    font-family: 'Sora', sans-serif;
+    color: #20293A;
+}
 
-.content{
-    font-weight: 100px;
-    
+span{
+  margin-bottom: 100px;
+  font-family: 'Sora', sans-serif;
+  font-size: 14px;
+  color: #6C727F;
 }
